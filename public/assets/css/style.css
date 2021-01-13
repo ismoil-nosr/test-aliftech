@@ -1,0 +1,223 @@
+a {
+    text-decoration: none;
+    color: #333;
+    margin: auto;
+
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+    max-width: 350px;
+    margin-top: 4rem;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    justify-content: space-between;
+}
+
+.top h2 {
+    width: 100%;
+    font-size: 2rem;
+    font-family: Helvetica;
+    font-weight: 800;
+}
+
+.add-button {
+    font-weight: lighter;
+    color: rgb(10, 132, 255);
+}
+
+/* Index page */
+.search-form {
+    width: 100%;
+    padding-top: .5rem;
+    border: 1px solid #ebebeb;
+    background: #ebebeb;
+    border-radius: 5px;
+}
+
+.search-form i {
+    color: #666;
+    padding-left: 8px;
+
+}
+
+.search-form input {
+    border: none;
+    outline: none;
+    height: 100%;
+    font-size: .75rem;
+    padding-bottom: 9px;
+    background: #ebebeb;
+    width: 80%;
+}
+
+.contacts-list ul{
+    padding: 0;
+}
+
+.contacts-list ul a li{
+    list-style: none;
+    border-bottom: 2px solid #ebebeb;
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+
+/* Show page */
+
+.menu-back {
+    display: flex;
+}
+
+.menu-back p{
+    margin: 0;
+}
+
+
+.menu-back a {
+    margin: 0;
+    margin-left: .5rem;
+}
+
+.menu-back i {
+    display: flex;
+    top: -0.4rem;
+    position: relative;
+}
+
+.menu-edit a, .menu-back p, .menu-back i {
+    color: rgb(10, 132, 255);
+}
+
+.contacts-info {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#phone-wrap {
+    padding: 1rem;
+    background: rgb(10, 132, 255);
+    border-radius: 50%;
+    color: #fff;
+    margin: 0;
+}
+
+.contacts-info ul li {
+    list-style: none;
+}
+
+.contacts-list-show {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-list-show ul li {
+    list-style: none;
+    border-bottom: 2px solid #ebebeb;
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+
+.new-contact-form {
+    margin-top: 1rem;
+}
+
+.new-input {
+    width: 100%;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    font-size: 1rem;
+    outline: none;
+    margin-bottom: 1.3rem;
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 10px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline;
+    font-family: inherit;
+    text-decoration: none;
+    font-size: inherit;
+}
+
+.save-btn {
+    color: rgb(10, 132, 255);
+}
+
+.del-btn {
+    display: block;
+    margin: 2rem auto;
+    color: red;
+}
+
+.hide {
+    display: none;
+}
+
+.alert ul li {
+    list-style: none;
+}
+
+.error{
+    border-bottom: 2px solid red;
+}
+
+.error-message{
+    display: block;
+    top: -20px;
+    position: relative;
+    font-size: 12px;
+    color: #717171;
+}
+
+.pagination {
+    display: flex;justify-content: space-evenly;
+    list-style: none;
+    color: rgb(10, 132, 255);
+}
+
+.pagination li {
+    padding: 5px 10px;
+    align-items: center;
+    display: flex;
+}
+
+.pagination .prev, .pagination .next {
+    padding-top: .5rem;
+    border: 2px solid #ebebeb;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.pagination .prev a:hover, .pagination .next a:hover {
+    color: rgb(10, 132, 255);
+}
+
+.disabled, .disabled:hover {
+    color: #000
+}
